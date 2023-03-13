@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.fund.enterprisepay.group.add request
  * 
  * @author auto create
- * @since 1.0, 2023-01-04 23:23:50
+ * @since 1.0, 2023-03-07 19:53:31
  */
 public class AlipayFundEnterprisepayGroupAddRequest implements AlipayRequest<AlipayFundEnterprisepayGroupAddResponse> {
 

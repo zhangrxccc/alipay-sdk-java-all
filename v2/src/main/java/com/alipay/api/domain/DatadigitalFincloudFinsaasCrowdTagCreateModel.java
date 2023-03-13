@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class DatadigitalFincloudFinsaasCrowdTagCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7629228753824227334L;
+	private static final long serialVersionUID = 6271762447314779692L;
 
 	/**
 	 * 操作人ID+唯一

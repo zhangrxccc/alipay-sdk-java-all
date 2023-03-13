@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.ins.scene.insserviceprod.contract.checkavailable request
  * 
  * @author auto create
- * @since 1.0, 2023-01-10 23:50:43
+ * @since 1.0, 2023-03-08 12:58:44
  */
 public class AlipayInsSceneInsserviceprodContractCheckavailableRequest implements AlipayRequest<AlipayInsSceneInsserviceprodContractCheckavailableResponse> {
 

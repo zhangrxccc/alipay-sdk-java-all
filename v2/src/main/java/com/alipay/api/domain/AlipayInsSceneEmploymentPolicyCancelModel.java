@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayInsSceneEmploymentPolicyCancelModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1424413116936715428L;
+	private static final long serialVersionUID = 1854844553219418985L;
 
 	/**
 	 * cainiao

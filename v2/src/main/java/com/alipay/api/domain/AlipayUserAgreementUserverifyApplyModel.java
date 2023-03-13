@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayUserAgreementUserverifyApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5213287564479857295L;
+	private static final long serialVersionUID = 1794576298993392385L;
 
 	/**
 	 * 协议号

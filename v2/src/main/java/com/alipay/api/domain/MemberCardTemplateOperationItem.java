@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class MemberCardTemplateOperationItem extends AlipayObject {
 
-	private static final long serialVersionUID = 3284396965938337752L;
+	private static final long serialVersionUID = 6379791988511619867L;
 
 	/**
 	 * 卡模板操作项的文本
