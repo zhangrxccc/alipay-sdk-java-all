@@ -30,9 +30,8 @@ import com.google.gson.reflect.TypeToken;
 import java.io.IOException;
 
 
-import com.alipay.v3.model.AlipayEbppInvoiceApplyStatusNotifyDefaultResponse;
-import com.alipay.v3.model.AlipayEbppInvoiceApplyStatusNotifyModel;
-import com.alipay.v3.model.AlipayEbppInvoiceApplyStatusNotifyResponseModel;
+import com.alipay.v3.model.AlipayEbppInvoiceApplystatusQueryDefaultResponse;
+import com.alipay.v3.model.AlipayEbppInvoiceApplystatusQueryResponseModel;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
@@ -41,16 +40,16 @@ import java.util.List;
 import java.util.Map;
 import javax.ws.rs.core.GenericType;
 
-public class AlipayEbppInvoiceApplyStatusApi {
+public class AlipayEbppInvoiceApplystatusApi {
     private ApiClient localVarApiClient;
     private int localHostIndex;
     private String localCustomBaseUrl;
 
-    public AlipayEbppInvoiceApplyStatusApi() {
+    public AlipayEbppInvoiceApplystatusApi() {
         this(Configuration.getDefaultApiClient());
     }
 
-    public AlipayEbppInvoiceApplyStatusApi(ApiClient apiClient) {
+    public AlipayEbppInvoiceApplystatusApi(ApiClient apiClient) {
         this.localVarApiClient = apiClient;
     }
 
@@ -79,8 +78,10 @@ public class AlipayEbppInvoiceApplyStatusApi {
     }
 
     /**
-     * Build call for notify
-     * @param alipayEbppInvoiceApplyStatusNotifyModel  (optional)
+     * Build call for query
+     * @param orderNoList 待查询订单开票状态列表，各订单号间通过英文逗号分割，不限于支付宝体内交易订单号。如：20200520110046966071,20200520110046966072,20200520110046966073 (optional)
+     * @param mShortName 定义商户的一级简称,用于标识商户品牌，对应于商户入驻时填写的\&quot;商户品牌简称\&quot;。 如：肯德基：KFC (optional)
+     * @param subMShortName 定义商户的二级简称,用于标识商户品牌下的分支机构，如门店，对应于商户入驻时填写的\&quot;商户门店简称\&quot;。 如：肯德基-杭州西湖区文一西路店：KFC-HZ-19003 要求：\&quot;商户品牌简称+商户门店简称\&quot;作为确定商户及其下属机构的唯一标识，不可重复。 (optional)
      * @param _callback Callback for upload/download progress
      * @param customizedParams
      * @return Call to execute
@@ -92,7 +93,7 @@ public class AlipayEbppInvoiceApplyStatusApi {
         <tr><td> 0 </td><td> 请求失败 </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call notifyCall(AlipayEbppInvoiceApplyStatusNotifyModel alipayEbppInvoiceApplyStatusNotifyModel, final ApiCallback _callback, CustomizedParams customizedParams) throws ApiException {
+    public okhttp3.Call queryCall(List<String> orderNoList, String mShortName, String subMShortName, final ApiCallback _callback, CustomizedParams customizedParams) throws ApiException {
         String basePath = null;
         // Operation Servers
         String[] localBasePaths = new String[] {  };
@@ -106,17 +107,28 @@ public class AlipayEbppInvoiceApplyStatusApi {
             basePath = null;
         }
 
-        Object localVarPostBody = (customizedParams != null && !Strings.isNullOrEmpty(customizedParams.getBodyContent()))
-                ? customizedParams.getBodyContent() : alipayEbppInvoiceApplyStatusNotifyModel;
+        Object localVarPostBody = null;
 
         // create path and map variables
-        String localVarPath = "/v3/alipay/ebpp/invoice/apply/status/notify";
+        String localVarPath = "/v3/alipay/ebpp/invoice/applystatus/query";
 
         List<Pair> localVarQueryParams = new ArrayList<Pair>();
         List<Pair> localVarCollectionQueryParams = new ArrayList<Pair>();
         Map<String, String> localVarHeaderParams = new HashMap<String, String>();
         Map<String, String> localVarCookieParams = new HashMap<String, String>();
         Map<String, Object> localVarFormParams = new HashMap<String, Object>();
+
+        if (orderNoList != null) {
+            localVarCollectionQueryParams.addAll(localVarApiClient.parameterToPairs("multi", "order_no_list", orderNoList));
+        }
+
+        if (mShortName != null) {
+            localVarQueryParams.addAll(localVarApiClient.parameterToPair("m_short_name", mShortName));
+        }
+
+        if (subMShortName != null) {
+            localVarQueryParams.addAll(localVarApiClient.parameterToPair("sub_m_short_name", subMShortName));
+        }
 
         final String[] localVarAccepts = {
             "application/json"
@@ -127,7 +139,7 @@ public class AlipayEbppInvoiceApplyStatusApi {
         }
 
         final String[] localVarContentTypes = {
-            "application/json"
+            
         };
         final String localVarContentType = localVarApiClient.selectHeaderContentType(localVarContentTypes);
         if (localVarContentType != null) {
@@ -153,23 +165,25 @@ public class AlipayEbppInvoiceApplyStatusApi {
         }
 
         String[] localVarAuthNames = new String[] {  };
-        return localVarApiClient.buildCall(basePath, localVarPath, "PUT", localVarQueryParams, localVarCollectionQueryParams, localVarPostBody, localVarHeaderParams, localVarCookieParams, localVarFormParams, localVarAuthNames, _callback);
+        return localVarApiClient.buildCall(basePath, localVarPath, "GET", localVarQueryParams, localVarCollectionQueryParams, localVarPostBody, localVarHeaderParams, localVarCookieParams, localVarFormParams, localVarAuthNames, _callback);
     }
 
     @SuppressWarnings("rawtypes")
-    private okhttp3.Call notifyValidateBeforeCall(AlipayEbppInvoiceApplyStatusNotifyModel alipayEbppInvoiceApplyStatusNotifyModel, final ApiCallback _callback, CustomizedParams customizedParams) throws ApiException {
+    private okhttp3.Call queryValidateBeforeCall(List<String> orderNoList, String mShortName, String subMShortName, final ApiCallback _callback, CustomizedParams customizedParams) throws ApiException {
         
 
-        okhttp3.Call localVarCall = notifyCall(alipayEbppInvoiceApplyStatusNotifyModel, _callback, customizedParams);
+        okhttp3.Call localVarCall = queryCall(orderNoList, mShortName, subMShortName, _callback, customizedParams);
         return localVarCall;
 
     }
 
     /**
-     * 发票申请状态变更
-     * 发票申请状态变更通知
-     * @param alipayEbppInvoiceApplyStatusNotifyModel  (optional)
-     * @return AlipayEbppInvoiceApplyStatusNotifyResponseModel
+     * 根据外部订单号查询开票状态
+     * 根据外部订单号查询开票状态，仅有申请状态无完整票据信息
+     * @param orderNoList 待查询订单开票状态列表，各订单号间通过英文逗号分割，不限于支付宝体内交易订单号。如：20200520110046966071,20200520110046966072,20200520110046966073 (optional)
+     * @param mShortName 定义商户的一级简称,用于标识商户品牌，对应于商户入驻时填写的\&quot;商户品牌简称\&quot;。 如：肯德基：KFC (optional)
+     * @param subMShortName 定义商户的二级简称,用于标识商户品牌下的分支机构，如门店，对应于商户入驻时填写的\&quot;商户门店简称\&quot;。 如：肯德基-杭州西湖区文一西路店：KFC-HZ-19003 要求：\&quot;商户品牌简称+商户门店简称\&quot;作为确定商户及其下属机构的唯一标识，不可重复。 (optional)
+     * @return AlipayEbppInvoiceApplystatusQueryResponseModel
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
      <table summary="Response Details" border="1">
@@ -178,21 +192,23 @@ public class AlipayEbppInvoiceApplyStatusApi {
         <tr><td> 0 </td><td> 请求失败 </td><td>  -  </td></tr>
      </table>
      */
-    public AlipayEbppInvoiceApplyStatusNotifyResponseModel notify(AlipayEbppInvoiceApplyStatusNotifyModel alipayEbppInvoiceApplyStatusNotifyModel) throws ApiException {
-        ApiResponse<AlipayEbppInvoiceApplyStatusNotifyResponseModel> localVarResp = notifyWithHttpInfo(alipayEbppInvoiceApplyStatusNotifyModel, null);
+    public AlipayEbppInvoiceApplystatusQueryResponseModel query(List<String> orderNoList, String mShortName, String subMShortName) throws ApiException {
+        ApiResponse<AlipayEbppInvoiceApplystatusQueryResponseModel> localVarResp = queryWithHttpInfo(orderNoList, mShortName, subMShortName, null);
         return localVarResp.getData();
     }
 
-    public AlipayEbppInvoiceApplyStatusNotifyResponseModel notify(AlipayEbppInvoiceApplyStatusNotifyModel alipayEbppInvoiceApplyStatusNotifyModel, CustomizedParams customizedParams) throws ApiException {
-        ApiResponse<AlipayEbppInvoiceApplyStatusNotifyResponseModel> localVarResp = notifyWithHttpInfo(alipayEbppInvoiceApplyStatusNotifyModel, customizedParams);
+    public AlipayEbppInvoiceApplystatusQueryResponseModel query(List<String> orderNoList, String mShortName, String subMShortName, CustomizedParams customizedParams) throws ApiException {
+        ApiResponse<AlipayEbppInvoiceApplystatusQueryResponseModel> localVarResp = queryWithHttpInfo(orderNoList, mShortName, subMShortName, customizedParams);
         return localVarResp.getData();
     }
 
     /**
-     * 发票申请状态变更
-     * 发票申请状态变更通知
-     * @param alipayEbppInvoiceApplyStatusNotifyModel  (optional)
-     * @return ApiResponse&lt;AlipayEbppInvoiceApplyStatusNotifyResponseModel&gt;
+     * 根据外部订单号查询开票状态
+     * 根据外部订单号查询开票状态，仅有申请状态无完整票据信息
+     * @param orderNoList 待查询订单开票状态列表，各订单号间通过英文逗号分割，不限于支付宝体内交易订单号。如：20200520110046966071,20200520110046966072,20200520110046966073 (optional)
+     * @param mShortName 定义商户的一级简称,用于标识商户品牌，对应于商户入驻时填写的\&quot;商户品牌简称\&quot;。 如：肯德基：KFC (optional)
+     * @param subMShortName 定义商户的二级简称,用于标识商户品牌下的分支机构，如门店，对应于商户入驻时填写的\&quot;商户门店简称\&quot;。 如：肯德基-杭州西湖区文一西路店：KFC-HZ-19003 要求：\&quot;商户品牌简称+商户门店简称\&quot;作为确定商户及其下属机构的唯一标识，不可重复。 (optional)
+     * @return ApiResponse&lt;AlipayEbppInvoiceApplystatusQueryResponseModel&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
      <table summary="Response Details" border="1">
@@ -201,14 +217,14 @@ public class AlipayEbppInvoiceApplyStatusApi {
         <tr><td> 0 </td><td> 请求失败 </td><td>  -  </td></tr>
      </table>
      */
-    public ApiResponse<AlipayEbppInvoiceApplyStatusNotifyResponseModel> notifyWithHttpInfo(AlipayEbppInvoiceApplyStatusNotifyModel alipayEbppInvoiceApplyStatusNotifyModel, CustomizedParams customizedParams) throws ApiException {
-        okhttp3.Call localVarCall = notifyValidateBeforeCall(alipayEbppInvoiceApplyStatusNotifyModel, null, customizedParams);
+    public ApiResponse<AlipayEbppInvoiceApplystatusQueryResponseModel> queryWithHttpInfo(List<String> orderNoList, String mShortName, String subMShortName, CustomizedParams customizedParams) throws ApiException {
+        okhttp3.Call localVarCall = queryValidateBeforeCall(orderNoList, mShortName, subMShortName, null, customizedParams);
         try {
-            Type localVarReturnType = new TypeToken<AlipayEbppInvoiceApplyStatusNotifyResponseModel>(){}.getType();
+            Type localVarReturnType = new TypeToken<AlipayEbppInvoiceApplystatusQueryResponseModel>(){}.getType();
             return localVarApiClient.execute(localVarCall, localVarReturnType);
         } catch (ApiException e) {
             try {
-                e.setErrorObject(localVarApiClient.getJSON().getGson().fromJson(e.getResponseBody(), new TypeToken<AlipayEbppInvoiceApplyStatusNotifyDefaultResponse>(){}.getType()));
+                e.setErrorObject(localVarApiClient.getJSON().getGson().fromJson(e.getResponseBody(), new TypeToken<AlipayEbppInvoiceApplystatusQueryDefaultResponse>(){}.getType()));
             } catch (Exception ex) {
                 AlipayLogger.logBizWarn(ex);
             }
@@ -217,9 +233,11 @@ public class AlipayEbppInvoiceApplyStatusApi {
     }
 
     /**
-     * 发票申请状态变更 (asynchronously)
-     * 发票申请状态变更通知
-     * @param alipayEbppInvoiceApplyStatusNotifyModel  (optional)
+     * 根据外部订单号查询开票状态 (asynchronously)
+     * 根据外部订单号查询开票状态，仅有申请状态无完整票据信息
+     * @param orderNoList 待查询订单开票状态列表，各订单号间通过英文逗号分割，不限于支付宝体内交易订单号。如：20200520110046966071,20200520110046966072,20200520110046966073 (optional)
+     * @param mShortName 定义商户的一级简称,用于标识商户品牌，对应于商户入驻时填写的\&quot;商户品牌简称\&quot;。 如：肯德基：KFC (optional)
+     * @param subMShortName 定义商户的二级简称,用于标识商户品牌下的分支机构，如门店，对应于商户入驻时填写的\&quot;商户门店简称\&quot;。 如：肯德基-杭州西湖区文一西路店：KFC-HZ-19003 要求：\&quot;商户品牌简称+商户门店简称\&quot;作为确定商户及其下属机构的唯一标识，不可重复。 (optional)
      * @param _callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -230,18 +248,18 @@ public class AlipayEbppInvoiceApplyStatusApi {
         <tr><td> 0 </td><td> 请求失败 </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call notifyAsync(AlipayEbppInvoiceApplyStatusNotifyModel alipayEbppInvoiceApplyStatusNotifyModel, final ApiCallback<AlipayEbppInvoiceApplyStatusNotifyResponseModel> _callback) throws ApiException {
+    public okhttp3.Call queryAsync(List<String> orderNoList, String mShortName, String subMShortName, final ApiCallback<AlipayEbppInvoiceApplystatusQueryResponseModel> _callback) throws ApiException {
 
-        okhttp3.Call localVarCall = notifyValidateBeforeCall(alipayEbppInvoiceApplyStatusNotifyModel, _callback, null);
-        Type localVarReturnType = new TypeToken<AlipayEbppInvoiceApplyStatusNotifyResponseModel>(){}.getType();
+        okhttp3.Call localVarCall = queryValidateBeforeCall(orderNoList, mShortName, subMShortName, _callback, null);
+        Type localVarReturnType = new TypeToken<AlipayEbppInvoiceApplystatusQueryResponseModel>(){}.getType();
         localVarApiClient.executeAsync(localVarCall, localVarReturnType, _callback);
         return localVarCall;
     }
 
-    public okhttp3.Call notifyAsync(AlipayEbppInvoiceApplyStatusNotifyModel alipayEbppInvoiceApplyStatusNotifyModel, final ApiCallback<AlipayEbppInvoiceApplyStatusNotifyResponseModel> _callback, CustomizedParams customizedParams) throws ApiException {
+    public okhttp3.Call queryAsync(List<String> orderNoList, String mShortName, String subMShortName, final ApiCallback<AlipayEbppInvoiceApplystatusQueryResponseModel> _callback, CustomizedParams customizedParams) throws ApiException {
 
-        okhttp3.Call localVarCall = notifyValidateBeforeCall(alipayEbppInvoiceApplyStatusNotifyModel, _callback, customizedParams);
-        Type localVarReturnType = new TypeToken<AlipayEbppInvoiceApplyStatusNotifyResponseModel>(){}.getType();
+        okhttp3.Call localVarCall = queryValidateBeforeCall(orderNoList, mShortName, subMShortName, _callback, customizedParams);
+        Type localVarReturnType = new TypeToken<AlipayEbppInvoiceApplystatusQueryResponseModel>(){}.getType();
         localVarApiClient.executeAsync(localVarCall, localVarReturnType, _callback);
         return localVarCall;
     }
