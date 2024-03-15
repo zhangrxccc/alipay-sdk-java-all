@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayFundInstcardOpenCancelResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3626899832565987845L;
+	private static final long serialVersionUID = 4856654142454918956L;
 
 	/** 
 	 * 是否销户成功

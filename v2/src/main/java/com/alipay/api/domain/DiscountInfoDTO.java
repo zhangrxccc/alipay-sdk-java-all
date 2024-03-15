@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class DiscountInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 6329399621747928946L;
+	private static final long serialVersionUID = 2226122212277617879L;
 
 	/**
 	 * 封顶金额

@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayCloudHoloinsightMicroappMetricQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6117826355214157638L;
+	private static final long serialVersionUID = 2182477275152679493L;
 
 	/**
 	 * 聚合方式：平均值
