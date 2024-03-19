@@ -7,11 +7,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.cloud.cloudrun.staticsite.filelist.delete response.
  * 
  * @author auto create
- * @since 1.0, 2023-10-10 10:06:46
+ * @since 1.0, 2024-03-14 15:02:20
  */
 public class AlipayCloudCloudrunStaticsiteFilelistDeleteResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7859364552956945989L;
+	private static final long serialVersionUID = 1145368558248177817L;
 
 	
 

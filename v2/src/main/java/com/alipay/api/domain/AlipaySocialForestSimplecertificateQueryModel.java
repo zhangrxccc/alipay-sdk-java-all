@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 查询用户义务植树证书信息
  *
  * @author auto create
- * @since 1.0, 2020-12-24 16:23:02
+ * @since 1.0, 2024-03-14 19:27:22
  */
 public class AlipaySocialForestSimplecertificateQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8441229229344823782L;
+	private static final long serialVersionUID = 2393532321756996574L;
 
 	/**
 	 * 年份

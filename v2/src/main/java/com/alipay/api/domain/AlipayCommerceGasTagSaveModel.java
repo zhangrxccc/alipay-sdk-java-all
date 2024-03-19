@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 加油业务标签修改
  *
  * @author auto create
- * @since 1.0, 2023-08-09 10:17:54
+ * @since 1.0, 2024-03-19 10:44:42
  */
 public class AlipayCommerceGasTagSaveModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3765619236513488475L;
+	private static final long serialVersionUID = 8338283753721315425L;
 
 	/**
 	 * 加油业务标签的key

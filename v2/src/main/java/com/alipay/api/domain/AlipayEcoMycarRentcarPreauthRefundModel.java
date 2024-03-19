@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayEcoMycarRentcarPreauthRefundModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3277185739797863157L;
+	private static final long serialVersionUID = 3748364368853278991L;
 
 	/**
 	 * 扣款时的外部交易号。一笔预授权可能有多笔扣款，退款是基于扣款去退的，因此要传扣款时的交易号

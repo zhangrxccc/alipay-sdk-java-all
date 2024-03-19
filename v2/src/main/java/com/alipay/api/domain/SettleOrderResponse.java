@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class SettleOrderResponse extends AlipayObject {
 
-	private static final long serialVersionUID = 4362963265231215859L;
+	private static final long serialVersionUID = 1391783475847355275L;
 
 	/**
 	 * 扣款单ID

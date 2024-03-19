@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayBossFncGfsettleprodSettleorderQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8829684378313235175L;
+	private static final long serialVersionUID = 8358299452861487839L;
 
 	/** 
 	 * 结果

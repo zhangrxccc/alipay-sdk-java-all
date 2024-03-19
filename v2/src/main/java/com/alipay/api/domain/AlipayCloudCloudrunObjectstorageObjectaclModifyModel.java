@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 修改文件ACL
  *
  * @author auto create
- * @since 1.0, 2023-10-09 13:44:51
+ * @since 1.0, 2024-03-14 15:03:03
  */
 public class AlipayCloudCloudrunObjectstorageObjectaclModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1211489341384688636L;
+	private static final long serialVersionUID = 7715845387985285657L;
 
 	/**
 	 * 文件acl，取值default：默认，acl继承自桶的acl；private: 私有，公网无法直接访问获取；public-read: 公开，公网可以直接访问获取

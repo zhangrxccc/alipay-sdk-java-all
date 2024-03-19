@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceMedicalIndustrydataIntelligentdiagnosisSendModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1297627655181736294L;
+	private static final long serialVersionUID = 4138566857527336834L;
 
 	/**
 	 * 对话chatId，若是修改的，则传，正常流程不传

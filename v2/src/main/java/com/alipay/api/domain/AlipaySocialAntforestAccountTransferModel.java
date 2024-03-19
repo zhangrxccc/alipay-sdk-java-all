@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 森林能量转移接口
  *
  * @author auto create
- * @since 1.0, 2022-10-13 23:01:14
+ * @since 1.0, 2024-03-14 19:28:21
  */
 public class AlipaySocialAntforestAccountTransferModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2172156653799548472L;
+	private static final long serialVersionUID = 8135466487751264168L;
 
 	/**
 	 * 用户在森林里的账户id，转移能量的源头账户（可以是user_id相同）

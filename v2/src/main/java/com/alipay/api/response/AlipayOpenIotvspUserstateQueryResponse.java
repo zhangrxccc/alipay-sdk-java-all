@@ -8,11 +8,18 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.open.iotvsp.userstate.query response.
  * 
  * @author auto create
- * @since 1.0, 2024-03-06 17:07:42
+ * @since 1.0, 2024-03-18 20:36:57
  */
 public class AlipayOpenIotvspUserstateQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5127819916461562594L;
+	private static final long serialVersionUID = 2262152526254677614L;
+
+	/** 
+	 * 0-不下发
+1-下发
+	 */
+	@ApiField("client_group_state")
+	private Long clientGroupState;
 
 	/** 
 	 * 返回用户在团餐、门禁等人脸库场景的状态，1在库2不在库3在开放库4在封闭库
@@ -25,6 +32,13 @@ public class AlipayOpenIotvspUserstateQueryResponse extends AlipayResponse {
 	 */
 	@ApiField("state")
 	private String state;
+
+	public void setClientGroupState(Long clientGroupState) {
+		this.clientGroupState = clientGroupState;
+	}
+	public Long getClientGroupState( ) {
+		return this.clientGroupState;
+	}
 
 	public void setGroupState(String groupState) {
 		this.groupState = groupState;

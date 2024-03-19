@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.cloud.cloudrun.objectstorage.directoryacl.modify response.
  * 
  * @author auto create
- * @since 1.0, 2023-10-25 15:39:39
+ * @since 1.0, 2024-03-14 15:00:58
  */
 public class AlipayCloudCloudrunObjectstorageDirectoryaclModifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3115325759593332547L;
+	private static final long serialVersionUID = 3698652511631813425L;
 
 	/** 
 	 * 访问属性

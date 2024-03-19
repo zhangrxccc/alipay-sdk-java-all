@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 查询部门下员工id列表
  *
  * @author auto create
- * @since 1.0, 2024-01-17 14:37:03
+ * @since 1.0, 2024-03-15 15:45:17
  */
 public class AlipayCommerceEcEmployeeIdlistQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2632829161977324952L;
+	private static final long serialVersionUID = 4733631138318583849L;
 
 	/**
 	 * 部门id

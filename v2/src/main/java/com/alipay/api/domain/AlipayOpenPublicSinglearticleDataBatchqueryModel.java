@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOpenPublicSinglearticleDataBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2253897228355561627L;
+	private static final long serialVersionUID = 8772579965852732273L;
 
 	/**
 	 * 数据开始日期，时间格式为 "yyyyMMdd" 。

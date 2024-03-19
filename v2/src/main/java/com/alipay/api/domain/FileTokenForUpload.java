@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class FileTokenForUpload extends AlipayObject {
 
-	private static final long serialVersionUID = 3775875267155959981L;
+	private static final long serialVersionUID = 7822186244899235312L;
 
 	/**
 	 * OSS授权的访问用户

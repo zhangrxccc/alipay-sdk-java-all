@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AnttechBlockchainDefinSaasPaymentCancelModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7679847787461236952L;
+	private static final long serialVersionUID = 1819477512291714979L;
 
 	/**
 	 * 撤销金额，单位为元。支持预授权后全额撤销、或预授权后部分撤销。精确到小数点后两位，取值范围[0.01,100000000]

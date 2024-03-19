@@ -10,11 +10,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.cloud.cloudrun.staticsite.indexpage.modify response.
  * 
  * @author auto create
- * @since 1.0, 2023-10-13 11:26:46
+ * @since 1.0, 2024-03-14 15:01:51
  */
 public class AlipayCloudCloudrunStaticsiteIndexpageModifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1156385871768615987L;
+	private static final long serialVersionUID = 3763811923347677599L;
 
 	/** 
 	 * 本次变更成功的域名列表

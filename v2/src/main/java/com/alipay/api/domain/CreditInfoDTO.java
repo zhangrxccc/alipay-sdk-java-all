@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CreditInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 5318625238245157828L;
+	private static final long serialVersionUID = 1876829795466833445L;
 
 	/**
 	 * 商户外部协议号，不同的支付宝用户需要传递不同的外部单号,使用芝麻先享能力必传

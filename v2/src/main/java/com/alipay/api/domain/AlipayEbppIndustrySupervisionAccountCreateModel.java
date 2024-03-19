@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayEbppIndustrySupervisionAccountCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6295949862993793546L;
+	private static final long serialVersionUID = 8861386273393634952L;
 
 	/**
 	 * 业务场景 + 关联账户号 + 待开通子户类型。

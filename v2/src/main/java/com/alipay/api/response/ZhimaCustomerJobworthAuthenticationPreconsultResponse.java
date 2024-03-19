@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: zhima.customer.jobworth.authentication.preconsult response.
  * 
  * @author auto create
- * @since 1.0, 2024-01-25 10:57:00
+ * @since 1.0, 2024-03-15 15:26:57
  */
 public class ZhimaCustomerJobworthAuthenticationPreconsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1119419765471726638L;
+	private static final long serialVersionUID = 7468958962841192755L;
 
 	/** 
 	 * 预校验是否通过

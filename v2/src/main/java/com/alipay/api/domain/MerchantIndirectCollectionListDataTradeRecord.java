@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class MerchantIndirectCollectionListDataTradeRecord extends AlipayObject {
 
-	private static final long serialVersionUID = 6648376579456626774L;
+	private static final long serialVersionUID = 4654869164513547199L;
 
 	/**
 	 * 交易金额（小数点后两位，单位元）

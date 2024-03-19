@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 解绑安全域名
  *
  * @author auto create
- * @since 1.0, 2023-10-12 17:15:51
+ * @since 1.0, 2024-03-14 15:01:37
  */
 public class AlipayCloudCloudrunObjectstorageSecuredomainDeleteModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6658757366188895543L;
+	private static final long serialVersionUID = 6598637522826711137L;
 
 	/**
 	 * 内部使用，uiam角色扮演token

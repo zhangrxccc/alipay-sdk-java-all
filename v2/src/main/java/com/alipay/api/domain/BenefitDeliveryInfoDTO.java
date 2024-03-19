@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class BenefitDeliveryInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 8849747289133932757L;
+	private static final long serialVersionUID = 1686956252629973943L;
 
 	/**
 	 * 券的可用区域

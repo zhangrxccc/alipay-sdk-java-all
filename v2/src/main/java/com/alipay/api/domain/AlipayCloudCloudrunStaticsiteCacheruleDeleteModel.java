@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 删除静态站点缓存配置
  *
  * @author auto create
- * @since 1.0, 2023-10-09 13:58:50
+ * @since 1.0, 2024-03-14 15:02:26
  */
 public class AlipayCloudCloudrunStaticsiteCacheruleDeleteModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1754976732452253511L;
+	private static final long serialVersionUID = 8533452279236248835L;
 
 	/**
 	 * 内部使用，uiam角色扮演token

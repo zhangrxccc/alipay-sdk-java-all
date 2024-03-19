@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 查询森林亚运碳中和相关数据
  *
  * @author auto create
- * @since 1.0, 2023-07-05 18:07:11
+ * @since 1.0, 2024-03-15 16:53:11
  */
 public class AlipaySocialAntforestCarbonneutralityQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7388884164328233342L;
+	private static final long serialVersionUID = 5682117966828681181L;
 
 	/**
 	 * 蚂蚁统一会员ID，执行该查询操作的支付宝用户
