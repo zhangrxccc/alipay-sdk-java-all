@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class ApeDataItem extends AlipayObject {
 
-	private static final long serialVersionUID = 8431191678812874738L;
+	private static final long serialVersionUID = 2121145558621748123L;
 
 	/**
 	 * 商品可用的城市列表

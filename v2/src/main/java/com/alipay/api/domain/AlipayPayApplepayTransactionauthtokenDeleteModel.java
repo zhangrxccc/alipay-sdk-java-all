@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayPayApplepayTransactionauthtokenDeleteModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2153227865494659893L;
+	private static final long serialVersionUID = 5199867776592336934L;
 
 	/**
 	 * 设备id

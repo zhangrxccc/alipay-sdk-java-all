@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipaySocialGiftOrderRefundModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2474876253282587388L;
+	private static final long serialVersionUID = 8815378784794553999L;
 
 	/**
 	 * 商户再送礼平台的唯一ID，用于标识具体的调用业务方，需要先在送礼平台进行业务类型的分配之后才看使用。

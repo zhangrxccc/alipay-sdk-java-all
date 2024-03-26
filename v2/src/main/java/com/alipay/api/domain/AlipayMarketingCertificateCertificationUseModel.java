@@ -15,7 +15,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayMarketingCertificateCertificationUseModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5611524919443287436L;
+	private static final long serialVersionUID = 8351747722332247754L;
 
 	/**
 	 * 核销时间。格式为：yyyy-MM-dd HH:mm:ss

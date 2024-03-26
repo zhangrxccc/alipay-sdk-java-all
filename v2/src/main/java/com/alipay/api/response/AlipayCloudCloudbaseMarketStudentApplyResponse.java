@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.cloud.cloudbase.market.student.apply response.
  * 
  * @author auto create
- * @since 1.0, 2023-12-26 19:56:56
+ * @since 1.0, 2024-03-25 13:52:01
  */
 public class AlipayCloudCloudbaseMarketStudentApplyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5799338854883328274L;
+	private static final long serialVersionUID = 8493271746323687675L;
 
 	/** 
 	 * 是否成功

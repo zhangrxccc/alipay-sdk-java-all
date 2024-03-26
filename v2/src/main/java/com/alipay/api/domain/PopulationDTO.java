@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class PopulationDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 3366165456165997114L;
+	private static final long serialVersionUID = 7727341159563644614L;
 
 	/**
 	 * 用户消费能力信息

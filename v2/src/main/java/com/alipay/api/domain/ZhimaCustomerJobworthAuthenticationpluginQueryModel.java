@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ZhimaCustomerJobworthAuthenticationpluginQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6528838581141664496L;
+	private static final long serialVersionUID = 1233311365333641756L;
 
 	/**
 	 * 通过受理台签约接口获取到的signStr

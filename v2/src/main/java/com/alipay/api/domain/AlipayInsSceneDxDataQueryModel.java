@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayInsSceneDxDataQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4595476637436766229L;
+	private static final long serialVersionUID = 3722266419362448628L;
 
 	/**
 	 * dx服务名

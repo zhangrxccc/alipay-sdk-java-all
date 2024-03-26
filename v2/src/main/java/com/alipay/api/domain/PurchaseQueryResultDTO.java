@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 订购查询及报价结果
  *
  * @author auto create
- * @since 1.0, 2022-08-29 20:48:02
+ * @since 1.0, 2024-03-20 11:17:06
  */
 public class PurchaseQueryResultDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 8838537585525488518L;
+	private static final long serialVersionUID = 3367138655338411446L;
 
 	/**
 	 * 协议条款

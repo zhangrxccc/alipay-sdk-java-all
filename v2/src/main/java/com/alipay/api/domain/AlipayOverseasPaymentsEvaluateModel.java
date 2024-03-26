@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 支付能力评估
  *
  * @author auto create
- * @since 1.0, 2024-03-18 19:46:29
+ * @since 1.0, 2024-03-22 17:13:16
  */
 public class AlipayOverseasPaymentsEvaluateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7531258724451691649L;
+	private static final long serialVersionUID = 4628768421933737563L;
 
 	/**
 	 * 影响支付细节的因素，该参数用于定义支付场景

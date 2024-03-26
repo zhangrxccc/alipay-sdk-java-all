@@ -14,7 +14,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class ZhimaCustomerFulfillmentSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2212831937969556152L;
+	private static final long serialVersionUID = 2314818987164222545L;
 
 	/** 
 	 * 合约号

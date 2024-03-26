@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class InteligentSendRule extends AlipayObject {
 
-	private static final long serialVersionUID = 7252746812321521727L;
+	private static final long serialVersionUID = 4516781293952766941L;
 
 	/**
 	 * 是否允许重复发奖：

@@ -7,11 +7,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.ins.scene.ecommerce.claim.cancel response.
  * 
  * @author auto create
- * @since 1.0, 2023-05-31 03:23:29
+ * @since 1.0, 2024-03-20 11:21:51
  */
 public class AlipayInsSceneEcommerceClaimCancelResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5831844489481783842L;
+	private static final long serialVersionUID = 1175781229686134325L;
 
 	
 

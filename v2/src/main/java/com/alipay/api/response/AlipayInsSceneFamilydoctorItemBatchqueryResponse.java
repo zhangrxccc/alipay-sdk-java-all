@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayInsSceneFamilydoctorItemBatchqueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1111834824942649737L;
+	private static final long serialVersionUID = 6882768739149824949L;
 
 	/** 
 	 * 药品列表

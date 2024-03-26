@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceAsiangamesHotelstatusQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2766856532935221236L;
+	private static final long serialVersionUID = 6277214554234432459L;
 
 	/** 
 	 * 列表展示

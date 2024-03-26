@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 电商商品准入模型
  *
  * @author auto create
- * @since 1.0, 2022-08-19 15:41:53
+ * @since 1.0, 2024-03-20 11:17:22
  */
 public class InsureAdmitDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 6699256219419765954L;
+	private static final long serialVersionUID = 2158672336864458746L;
 
 	/**
 	 * 买家

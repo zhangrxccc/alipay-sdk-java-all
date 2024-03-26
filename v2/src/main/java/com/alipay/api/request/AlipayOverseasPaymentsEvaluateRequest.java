@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.overseas.payments.evaluate request
  * 
  * @author auto create
- * @since 1.0, 2024-03-18 19:46:57
+ * @since 1.0, 2024-03-22 17:13:16
  */
 public class AlipayOverseasPaymentsEvaluateRequest implements AlipayRequest<AlipayOverseasPaymentsEvaluateResponse> {
 

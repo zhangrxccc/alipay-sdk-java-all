@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCloudCloudbaseAntifloodBarrierGetResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3588973338713522499L;
+	private static final long serialVersionUID = 6499815132516971626L;
 
 	/** 
 	 * 封禁时长（秒） [60, 3*86400]

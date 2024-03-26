@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 电商场景订购受理
  *
  * @author auto create
- * @since 1.0, 2022-08-29 21:03:30
+ * @since 1.0, 2024-03-20 11:22:07
  */
 public class AlipayInsSceneEcommercePurchaseModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4377134145715477172L;
+	private static final long serialVersionUID = 8627945865526127656L;
 
 	/**
 	 * 业务扩展信息

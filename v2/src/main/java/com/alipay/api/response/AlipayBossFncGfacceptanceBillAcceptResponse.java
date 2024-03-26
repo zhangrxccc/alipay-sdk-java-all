@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.boss.fnc.gfacceptance.bill.accept response.
  * 
  * @author auto create
- * @since 1.0, 2023-06-26 16:22:19
+ * @since 1.0, 2024-03-22 11:38:15
  */
 public class AlipayBossFncGfacceptanceBillAcceptResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3767228512219215466L;
+	private static final long serialVersionUID = 2867287324178543371L;
 
 	/** 
 	 * 业财受理结果

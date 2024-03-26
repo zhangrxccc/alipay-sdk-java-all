@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOpenMiniIcpFaceauthVerifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3744653873453596544L;
+	private static final long serialVersionUID = 3841116125447355522L;
 
 	/** 
 	 * 人脸核验的凭证

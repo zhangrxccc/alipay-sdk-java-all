@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 保险开放平台保障方案
  *
  * @author auto create
- * @since 1.0, 2022-08-19 15:42:34
+ * @since 1.0, 2024-03-20 11:17:06
  */
 public class PurchaseInsurePlanDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 3236769417654238584L;
+	private static final long serialVersionUID = 5367861429722629253L;
 
 	/**
 	 * 是否当时选定的方案,查看或编辑订购时有效

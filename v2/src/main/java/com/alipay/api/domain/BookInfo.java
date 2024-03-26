@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 对合作方展示的书籍（电子书）信息
  *
  * @author auto create
- * @since 1.0, 2024-03-07 17:48:42
+ * @since 1.0, 2024-03-24 00:10:16
  */
 public class BookInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8375299181479161662L;
+	private static final long serialVersionUID = 3785211881614869885L;
 
 	/**
 	 * 书籍审核失败原因，可能为空

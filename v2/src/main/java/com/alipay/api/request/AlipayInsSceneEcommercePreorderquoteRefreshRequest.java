@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.ins.scene.ecommerce.preorderquote.refresh request
  * 
  * @author auto create
- * @since 1.0, 2023-08-21 03:43:38
+ * @since 1.0, 2024-03-20 11:20:58
  */
 public class AlipayInsSceneEcommercePreorderquoteRefreshRequest implements AlipayRequest<AlipayInsSceneEcommercePreorderquoteRefreshResponse> {
 

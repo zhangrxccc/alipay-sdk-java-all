@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.overseas.payments.evaluate response.
  * 
  * @author auto create
- * @since 1.0, 2024-03-18 19:46:57
+ * @since 1.0, 2024-03-22 17:13:16
  */
 public class AlipayOverseasPaymentsEvaluateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6558396124373193445L;
+	private static final long serialVersionUID = 3712823321582116334L;
 
 	/** 
 	 * 当业务返回码为错误码时，代表评估结果为失败；此时，支付方式侧会为此参数赋值，以引导用户进行下一步动作。

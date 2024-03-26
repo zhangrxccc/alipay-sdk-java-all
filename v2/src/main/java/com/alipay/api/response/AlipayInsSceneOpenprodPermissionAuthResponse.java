@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.ins.scene.openprod.permission.auth response.
  * 
  * @author auto create
- * @since 1.0, 2023-07-18 16:45:30
+ * @since 1.0, 2024-03-20 11:21:44
  */
 public class AlipayInsSceneOpenprodPermissionAuthResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1318512786752685534L;
+	private static final long serialVersionUID = 3853765968524118466L;
 
 	/** 
 	 * token

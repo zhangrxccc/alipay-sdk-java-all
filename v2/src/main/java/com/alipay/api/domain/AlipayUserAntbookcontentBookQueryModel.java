@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 读书听书频道书籍信息查询接口
  *
  * @author auto create
- * @since 1.0, 2024-03-12 14:44:11
+ * @since 1.0, 2024-03-24 00:10:16
  */
 public class AlipayUserAntbookcontentBookQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5737936875695494828L;
+	private static final long serialVersionUID = 4378529747974135472L;
 
 	/**
 	 * 最新版本审核状态，用做过滤。如果传入AUDIT_REJECT，则只返回审核失败的书籍

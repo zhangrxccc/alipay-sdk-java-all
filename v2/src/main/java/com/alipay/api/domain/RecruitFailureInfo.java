@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RecruitFailureInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 2634164894236492948L;
+	private static final long serialVersionUID = 1368558359568862756L;
 
 	/**
 	 * 创建活动报名失败原因。调用创建活动报名接口经业务校验不通过的提示信息。

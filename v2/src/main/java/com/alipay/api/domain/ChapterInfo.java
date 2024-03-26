@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 对合作方展示的书籍章节信息，一本电子书包含一个或者多个章节
  *
  * @author auto create
- * @since 1.0, 2024-03-07 17:48:54
+ * @since 1.0, 2024-03-23 11:37:50
  */
 public class ChapterInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8676883923727447994L;
+	private static final long serialVersionUID = 8448667386275917444L;
 
 	/**
 	 * 书籍（电子书）名称

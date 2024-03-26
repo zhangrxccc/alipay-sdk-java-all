@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceOperationBsEnrollsRecoverResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5557634751924667333L;
+	private static final long serialVersionUID = 7386249524727424832L;
 
 	/** 
 	 * 恢复报名失败的参与者列表

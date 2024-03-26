@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 阅读听书频道专辑信息查询接口
  *
  * @author auto create
- * @since 1.0, 2024-03-12 14:43:50
+ * @since 1.0, 2024-03-24 21:54:14
  */
 public class AlipayUserAntbooksAlbumQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1784444792853187761L;
+	private static final long serialVersionUID = 7236897692846771764L;
 
 	/**
 	 * 最新版本审核状态，用做过滤。如果传入AUDIT_REJECT，则只返回审核失败的专辑

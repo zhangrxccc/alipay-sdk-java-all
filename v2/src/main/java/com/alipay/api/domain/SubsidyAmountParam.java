@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SubsidyAmountParam extends AlipayObject {
 
-	private static final long serialVersionUID = 8696139691367313219L;
+	private static final long serialVersionUID = 5173716919328125266L;
 
 	/**
 	 * 补充计算金额，必须大于0

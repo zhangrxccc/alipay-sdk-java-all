@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 业财账单逆向受理
  *
  * @author auto create
- * @since 1.0, 2022-11-08 14:58:22
+ * @since 1.0, 2024-03-25 13:53:51
  */
 public class AlipayBossFncGfacceptanceBillReverseModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5313465848132515668L;
+	private static final long serialVersionUID = 7479668194519865552L;
 
 	/**
 	 * 16位。支付宝UID或者2088000000000XX0，倒数2、3位数字用来决策LDC ZoneUid和分库位

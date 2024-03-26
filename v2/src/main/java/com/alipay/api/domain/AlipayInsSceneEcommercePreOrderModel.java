@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 保险电商场景保单预下单
  *
  * @author auto create
- * @since 1.0, 2022-11-28 18:18:30
+ * @since 1.0, 2024-03-20 11:21:07
  */
 public class AlipayInsSceneEcommercePreOrderModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8588683295251495294L;
+	private static final long serialVersionUID = 7686696381341919246L;
 
 	/**
 	 * 买家

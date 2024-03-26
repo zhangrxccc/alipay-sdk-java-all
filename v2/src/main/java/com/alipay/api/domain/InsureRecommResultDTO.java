@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 保险投保前推荐结果
  *
  * @author auto create
- * @since 1.0, 2022-08-30 21:10:28
+ * @since 1.0, 2024-03-20 11:17:01
  */
 public class InsureRecommResultDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 3892424916427383174L;
+	private static final long serialVersionUID = 6133733455668373125L;
 
 	/**
 	 * 协议条款

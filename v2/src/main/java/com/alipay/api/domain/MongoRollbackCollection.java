@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class MongoRollbackCollection extends AlipayObject {
 
-	private static final long serialVersionUID = 2341932754169845386L;
+	private static final long serialVersionUID = 2442423164739245946L;
 
 	/**
 	 * 回档后集合名称

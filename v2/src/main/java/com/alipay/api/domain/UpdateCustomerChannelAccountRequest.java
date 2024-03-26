@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class UpdateCustomerChannelAccountRequest extends AlipayObject {
 
-	private static final long serialVersionUID = 1486222895285271997L;
+	private static final long serialVersionUID = 2211354635523783628L;
 
 	/**
 	 * 绑定状态，目前只支持更新为已绑定

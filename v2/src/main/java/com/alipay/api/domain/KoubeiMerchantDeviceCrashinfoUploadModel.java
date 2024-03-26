@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class KoubeiMerchantDeviceCrashinfoUploadModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5589762373416732858L;
+	private static final long serialVersionUID = 3418151516336828663L;
 
 	/**
 	 * Crash事件发生时间

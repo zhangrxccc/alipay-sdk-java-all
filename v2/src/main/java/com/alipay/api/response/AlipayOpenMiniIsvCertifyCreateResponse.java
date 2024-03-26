@@ -7,11 +7,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.open.mini.isv.certify.create response.
  * 
  * @author auto create
- * @since 1.0, 2024-03-01 16:27:41
+ * @since 1.0, 2024-03-25 16:45:16
  */
 public class AlipayOpenMiniIsvCertifyCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4728274123729489991L;
+	private static final long serialVersionUID = 8398174784536978636L;
 
 	
 

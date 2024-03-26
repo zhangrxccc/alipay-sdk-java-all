@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 芝麻GO模板的周期灵活扣配置
  *
  * @author auto create
- * @since 1.0, 2022-08-26 09:59:59
+ * @since 1.0, 2024-03-20 16:31:51
  */
 public class ZMGOCycleFlexConfig extends AlipayObject {
 
-	private static final long serialVersionUID = 4663178953841776687L;
+	private static final long serialVersionUID = 2282511433639391788L;
 
 	/**
 	 * 周期灵活扣的费用名称
